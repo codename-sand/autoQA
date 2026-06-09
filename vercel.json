@@ -1,5 +1,20 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/auto-QA/",
+      "permanent": false
+    }
+  ],
   "rewrites": [
+    {
+      "source": "/auto-QA",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/auto-QA/",
+      "destination": "/index.html"
+    },
     {
       "source": "/auto-QA/:path*",
       "destination": "/:path*"
